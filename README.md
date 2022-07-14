@@ -28,3 +28,24 @@ Settings OpenSSL GOST for Ubuntu 18.04 / 20.04
     default_algorithms = ALL
     CRYPT_PARAMS = id-Gost28147-89-CriptoPro-A-ParamSet
     ```
+## Step 5. dynamic_path location!
+---
+5. You can find the location of the dynamic_path parameter using the command!
+
+```shell
+sudo find / -name "gost.so"
+```
+---
+
+## Step 6. Checking the correct settings!
+
+6. To check the correctness of the settings, you can use command
+
+```shell
+openssl ciphers | tr ':' '\n' | grep GOST
+```
+Example of the correct answer!
+```shell
+> GOST2012-GOST8912-GOST8912  
+> GOST2001-GOST89-GOST89
+```
