@@ -26,7 +26,7 @@ Settings OpenSSL GOST for Ubuntu 18.04 / 20.04
     engine_id = gost
     dynamic_path = /usr/lib/x86_64-linux-gnu/engines-1.1/gost.so
     default_algorithms = ALL
-    CRYPT_PARAMS = id-Gost28147-89-CriptoPro-A-ParamSet
+    CRYPT_PARAMS = id-Gost28147-89-CryptoPro-A-ParamSet
     ```
 ## Step 5. dynamic_path location!
 ---
