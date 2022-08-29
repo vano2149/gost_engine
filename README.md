@@ -10,7 +10,7 @@ Settings OpenSSL GOST for Ubuntu 18.04 / 20.04
 ## Step 3. Changes at the biginning of the file!
 3. 
     ```
-    openaal_conf = openssl_def
+    openssl_conf = openssl_def
     ```
 
 ## Step 4. Changes to the end of the file!
